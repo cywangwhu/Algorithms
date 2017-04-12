@@ -3,7 +3,7 @@
 
 using namespace std;
  
-void InsertSort(vector<int> &R)//直接插入排序
+void InsertSort(vector<int> &R)
 {
 	int tmp,j,n=R.size();
 	for (int i=1;i<n;i++)
@@ -25,7 +25,7 @@ void BUCKETSORT(int A[],int n,int k)
 	int m=10;
 	int i,j,count;
 	vector<vector<int> > v(k+1);
-	for (i=0;i<n;i++)//分桶 
+	for (i=0;i<n;i++)//路脰脥掳 
 		for (j=1;j<=k+1;j++)
 			if (A[i]<=m*j/k)
 			{ 
