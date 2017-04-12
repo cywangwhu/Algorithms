@@ -82,10 +82,6 @@ void Heapsort1(int h[])
     h[0]=n;
 }
 
-
-
-
-
 void test()
 {
     int a1[8]={7,7,8,5,2,4,1,3};
